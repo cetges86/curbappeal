@@ -1,31 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Navbar from "./Navbar/Navbar"
-import Jumbotron from './Jumbotron/Jumbotron';
+import Main from "./MainPage/MainPage";
+import AboutPage from "./AboutPage/AboutPage";
+import CurbAppeal from "./CurbAppeal/CurbAppeal";
+import Gallery from "./Gallery/Gallery";
+import Store from "./Store/Store";
+import Contact from "./Contact/Contact";
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Jumbotron />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/about" component={AboutPage} />
+              <Route exact path="/curbappeal" component={CurbAppeal} />
+              <Route exact path="/gallery" component={Gallery} />
+              <Route exact path="/store" component={Store} />
+              <Route exact path="/contact" component={Contact} /> 
+              {/* <Route exact path="/admin" component={Admin} /> */}
+        </Switch>
+      </Router>
+    );
+  }
 }
+
+
 
 export default App;
