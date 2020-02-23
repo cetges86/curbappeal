@@ -84,7 +84,6 @@ const MainPage = () => {
         <div className="row my-3">
           <img
             className="img-thumbnail col"
-            id="garden-img-vert"
             alt="Curb Appeal Garden"
             src={trunk}
           />

@@ -30,8 +30,6 @@ nav {
 
 #garden-img-vert {
     margin-top: 10%;
-    max-height: 477px;
-    transform: rotate(90deg);
     max-width: 100%;
 }
 
