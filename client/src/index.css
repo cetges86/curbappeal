@@ -34,3 +34,10 @@ nav {
 #intro {
   padding:5%;
 }
+p {
+  text-indent: 50px;
+  line-height: 1.5;
+}
+.frosted {
+  background-color:rgba(248,249,250,.6);
+}
