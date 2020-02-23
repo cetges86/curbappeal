@@ -7,7 +7,7 @@ const Gallery = () => {
     return (
         <div>
             <Navbar />
-            <Jumbotron />
+           
             <section id="intro">
                 <div className="row align-items-center">
                     <img className="img-thumbnail col-md-auto" id="garden-img" alt="Curb Appeal Garden" src={garden} />

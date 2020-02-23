@@ -1,43 +1,61 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin: 0;
+    font-family: "Raleway";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-image: url("./img/flower-bg.jpg");
-  background-size:cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+    background-image: url("./img/flower-bg.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 nav {
-  background-color:rgba(248,249,250,.2) !important;
+    background-color: rgba(248, 249, 250, .2) !important;
 }
 
 .jumbotron {
-  background-color:rgba(248,249,250,0) !important;
-
+    background-color: rgba(248, 249, 250, 0) !important;
 }
+
+
 /* On main page, section 1 garden image */
 
 #garden-img {
-  margin: 2%;
-  max-height: 477px;
+    margin: 2%;
+    max-height: 477px;
+}
+
+#garden-img-vert {
+    margin-top: 10%;
+    max-height: 477px;
+    transform: rotate(90deg);
+    max-width: 100%;
 }
 
 #intro {
-  padding:5%;
+    padding: 5%;
+    background-color: #9cdaf8;
+    background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
 }
+
+#about {
+    background-color: #9cdaf8;
+    background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
+    padding:5%;
+}
+
 p {
-  text-indent: 50px;
-  line-height: 1.5;
+    text-indent: 50px;
+    line-height: 2.0;
 }
+
 .frosted {
-  background-color:rgba(248,249,250,.6);
+    background-color: rgba(248, 249, 250, .6);
+}
+
+#banner {
+    height:10rem;
 }
