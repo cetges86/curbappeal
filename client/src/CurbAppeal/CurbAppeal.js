@@ -1,7 +1,5 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import Jumbotron from "../Jumbotron/Jumbotron";
-import garden from "../img/curbappeal1.jpeg";
 
 const CurbAppeal = () => {
   return (

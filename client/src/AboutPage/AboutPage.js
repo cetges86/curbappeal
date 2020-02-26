@@ -14,8 +14,8 @@ const AboutPage = () => {
             alt="Rheda Portrait"
             src={portrait}
           />
-          <div className="col">
-            <h4 className="text-center">About 20/20 Garden</h4>
+          <div className="col m-3">
+            <h3 className="text-center">About 20/20 Garden</h3><br/>
             <p className="col">
               During my practice, I have researched how food can contribute to
               macular (visual) health. For example, lutein and zeaxanthin are
@@ -27,8 +27,13 @@ const AboutPage = () => {
               pigment. These protective antioxidants work to absorb the blue
               light we are exposed to daily. They also allow eyes to tolerate
               and recover from bright flashes of light as well as provide the
-              ability to see objects more clearly in dim light. Colorful
-              vegetables and edible flowers often also contain Vitamin C, an
+              ability to see objects more clearly in dim light. 
+              </p>
+              </div>
+
+            <div>
+              <p>
+              Colorful vegetables and edible flowers often also contain Vitamin C, an
               antioxidant, which lowers the risk of developing cataracts and
               when taken in combination with other essential nutrients, can slow
               the progression of age-related macular degeneration and the
@@ -37,7 +42,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="row">
+        <div className="row m-3">
           <h4>Curb Appeal by Rheda</h4>
           <p>
             I happened into starting a gardening business in 2018 by offering to
