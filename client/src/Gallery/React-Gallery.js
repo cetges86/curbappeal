@@ -1,8 +1,9 @@
 import React, { Component} from "react";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { photos } from "./photos";
+import { photos } from "../img/photos";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer"
 
 class ImgGallery extends Component {
 
@@ -46,6 +47,7 @@ class ImgGallery extends Component {
               </Modal>
             ) : null}
           </ModalGateway>
+          <Footer />
         </div>
       );
   }

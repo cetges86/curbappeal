@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Raleway";
+    font-family: "Raleway" !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -55,8 +55,26 @@ p {
 
 .frosted {
     background-color: rgba(248, 249, 250, .6);
+    padding:1rem;
+    border-radius: 15px;
+}
+
+#logo {
+    width:100%;
 }
 
 #banner {
-    height:10rem;
+    display:table;
+    height:7rem;
+    color:teal;
+    letter-spacing: 3px;
+    margin:auto;
+    vertical-align: middle;
+}
+
+
+
+.footer {
+    background-color: rgba(248, 249, 250, .8);
+    padding:1rem;
 }

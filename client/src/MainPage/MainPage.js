@@ -1,9 +1,11 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Jumbotron from "../Jumbotron/Jumbotron";
+import Footer from "../Footer/Footer"
 import garden from "../img/curbappeal1.jpeg";
 import veggies from "../img/veggies-bg.jpeg";
 import trunk from "../img/trunk.jpeg";
+import logo from "../img/logo-transparent.png";
 
 const MainPage = () => {
   return (
@@ -12,14 +14,17 @@ const MainPage = () => {
       <Jumbotron />
       <div className="bg-light" id="intro">
         <div className="row align-items-center">
+          <div className="col">
           <img
-            className="img-thumbnail col-md-auto"
+            className="img-thumbnail"
             id="garden-img"
             alt="Curb Appeal Garden"
             src={garden}
           />
+          <img src={logo} id="logo" />
+
+          </div>
           <div className="col">
-            <h3 className="text-center"> 20 / 20 Garden </h3>
             <p className="p-3 m-3">
               Studies have shown that participating in gardening as a child is
               an important contributor to attitudes and actions toward the
@@ -37,14 +42,13 @@ const MainPage = () => {
             </p>
             <ul>
               <li>
-                Allowing for hands - on nutrition education and healthy eating /
+                Allowing for hands-on nutrition education and healthy eating /
                 obesity prevention programs
               </li>
               <li>
                 Enabling the hospital to launch a food prescription program and
                 food pharmacy, allowing health care providers to“ prescribe”
-                healthy food instead of– or in addition to– medicine to patients
-                / families struggling with obesity, diabetes and food security
+                healthy food instead of–or in addition to– medicine to patients/families struggling with obesity, diabetes and food security
               </li>
             </ul>
           </div>
@@ -55,7 +59,7 @@ const MainPage = () => {
               As an optometrist with a particular concern about macular
               degeneration prevention, I fell that it’s time to prescribe
               healthy foods. <br />
-              The 20 / 20 Garden™ set of 3 seed packets is an affordable way to
+              The 20/20 Garden™ set of 3 seed packets is an affordable way to
               create a garden of foods rich in nutrition to prevent age -
               related eye disease.The varieties of seeds included are spinach,
               sweet red peppers and marigolds– all are easy to grow and
@@ -65,7 +69,7 @@ const MainPage = () => {
               20/20 Garden™ seed packets include information about serving size
               and nutritional content.The 20/20 Garden™ - Plant nutrition for
               your Vision combines my efforts to support nutrition to prevent
-              age - related ocular disease with a product to easily achieve
+              age-related ocular disease with a product to easily achieve
               better eating.
             </p>
             <a href="/store">
@@ -112,12 +116,13 @@ const MainPage = () => {
               proposition, I welcome the opportunity to discuss your project.
               <br />
               Services include landscape design, spring clean up, soil amending,
-              planting, setting up drip - irrigation lines, maintenance and fall
+              planting, setting up drip-irrigation lines, maintenance and fall
               clean-up.
             </p>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

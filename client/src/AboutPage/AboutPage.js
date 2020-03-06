@@ -1,12 +1,15 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-// import Jumbotron from "../Jumbotron/Jumbotron";
+import Footer from "../Footer/Footer"
 import portrait from "../img/portrait.jpeg";
+import curb2 from "../img/curb2.jpeg";
 const AboutPage = () => {
   return (
     <div>
       <Navbar />
-      <h1 id="banner" className="ml-5 display-2">About Me</h1>
+      <div id="banner" >
+        <h1 className="display-2">About Dr. Gerlock</h1>
+        </div>
       <section id="about">
         <div className="row align-items-center">
           <img
@@ -43,8 +46,9 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="row m-3">
+          <div className="col">
           <h4>Curb Appeal by Rheda</h4>
-          <p>
+          <p >
             I happened into starting a gardening business in 2018 by offering to
             help an acquaintance with her corner lot flower bed spring clean-up
             while she was recuperating from back surgery. Once I started the
@@ -59,8 +63,12 @@ const AboutPage = () => {
             I’ve come to love the color and vibrancy that perennials and annuals
             provide when planted in sunny locations.
           </p>
+
+          </div>
+          <img className="col img-thumbnail" src={curb2} />
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
