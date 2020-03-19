@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import Jumbotron from "../Jumbotron/Jumbotron";
 import garden from "../img/curbappeal1.jpeg"
 
 const Store = () => {
     return (
         <div>
             <Navbar />
-            <Jumbotron />
+            
             <section id="intro">
                 <div className="row align-items-center">
+                    <h1 className="text-center"> Welcome to the 20/20 Garden Store</h1>
                     <img className="img-thumbnail col-md-auto" id="garden-img" alt="Curb Appeal Garden" src={garden} />
                     <p className="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit quam, maximus non nunc id, vulputate condimentum tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer scelerisque sollicitudin pulvinar. Quisque velit elit, commodo vel lorem quis, bibendum tempor eros. Maecenas faucibus ac dolor sit amet iaculis. Phasellus eget libero lacus. Praesent eget lacus ac lorem dignissim pretium. Morbi venenatis felis sed tempor ultrices.
     
