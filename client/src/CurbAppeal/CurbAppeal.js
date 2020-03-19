@@ -14,12 +14,12 @@ const CurbAppeal = () => {
         <div className="row align-items-center">
           <img className="img-thumbnail col-md-auto" id="garden-img" alt="Curb Appeal Garden" src={curb1} />
           <div className="col">
-            <h4>
-              Affordable landscape help for your home or business - <br />transform your
+            <h5>
+              Affordable landscape help for your home or business - Transform your
               space to be the envy of the neighborhood
-          </h4>
+          </h5>
             <p className="col">
-              Email me to explain your landscape needs and wants: 
+              Email me to explain your landscape needs and wants:&nbsp;
               <a href={"mailto:" + "rheda@me.com"}>Rheda@me.com</a>
               <br />
               Rheda of Curb Appeal by Rheda will work with you to create a
@@ -44,9 +44,7 @@ const CurbAppeal = () => {
             Landscape Maintenance: bed and border weed care; mulch care; shrub
             trimming and shaping; soil amendments; spring and fall planting of
             both perennial and annual flower beds and pots; drip-line irrigation
-            lines;
-            <br />
-            Japanese beetle mitigation.
+            lines; Japanese beetle mitigation.
             <br />
             Seasonal Clean-Up - Spring and Fall Leaf removal or mulching; shrub
             trimming and shaping; and weed care.

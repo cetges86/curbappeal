@@ -31,6 +31,7 @@ class ImgGallery extends Component {
       return (
         <div>
         <Navbar />
+        <div className="container">
         <h1>Image Gallery</h1>
           <Gallery photos={photos} onClick={this.openLightbox} />
           <ModalGateway>
@@ -47,6 +48,7 @@ class ImgGallery extends Component {
               </Modal>
             ) : null}
           </ModalGateway>
+        </div>
           <Footer />
         </div>
       );
