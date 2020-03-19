@@ -25,7 +25,7 @@ const MainPage = () => {
 
           </div>
           <div className="col">
-            <p className="p-3 m-3">
+            <p className="p-3 m-3 frosted">
               Studies have shown that participating in gardening as a child is
               an important contributor to attitudes and actions toward the
               environment as an adult.Just as importantly, access to nutritious
@@ -55,7 +55,7 @@ const MainPage = () => {
         </div>
         <div className="row my-3">
           <div className="col text-center">
-            <p className="p-3 text-left m-3">
+            <p className="p-3 text-left m-3 frosted">
               As an optometrist with a particular concern about macular
               degeneration prevention, I fell that it’s time to prescribe
               healthy foods. <br />
@@ -94,7 +94,7 @@ const MainPage = () => {
           />
           <div className="col">
             <h3 className="text-center"> Curb Appeal by Rheda </h3>
-            <p className="col p-2 m-3">
+            <p className="frosted col p-2 m-3">
               I celebrate 35 years of optometry care this year and a couple
               years ago I started a gardening business to test - drive what my
               retirements plans might include. I’m a hobby gardener with no
