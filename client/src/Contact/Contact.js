@@ -1,7 +1,11 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import Footer from "../Footer/Footer";
 import Jumbotron from "../Jumbotron/Jumbotron";
 import garden from "../img/curbappeal1.jpeg"
+import venmo from "../img/venmo.png"
+import mail from "../img/email.png"
+import text from "../img/sms.png"
 
 const Contact = () => {
     return (
@@ -10,14 +14,16 @@ const Contact = () => {
 
             <section id="intro">
                 <div className="row">
-                   <h1>Contact Me</h1>
-                   <ul>
-                       <li>Rheda@me.com</li>
-                       <li>303.887.6557 - Text Preferred</li>
+                   <h1 id='small-banner'>Contact Me</h1>
+                   <ul id="contact-list">
+                       <li><img id="icon" src={mail}/><a target="blank" href="mailto:Rheda@me.com">Rheda@me.com</a></li>
+                       <li><img id="icon" src={text}/>(303) 887.6557 - Text Preferred</li>
+                       <li><img id="icon" src={venmo}/>Venmo - @Rheda-Gerlock</li>
                    </ul>
 
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }

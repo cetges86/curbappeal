@@ -7,8 +7,8 @@ const CurbAppeal = () => {
   return (
     <div>
       <Navbar />
-      <div id="banner" >
-        <h1 className="display-2">Curb Appeal by Rheda</h1>
+      <div id="banner">
+        <h1 className="align-self-center display-4">Curb Appeal by Rheda</h1>
       </div>
       <section id="intro">
         <div className="row align-items-center">
@@ -20,7 +20,7 @@ const CurbAppeal = () => {
           </h5>
             <p className="col">
               Email me to explain your landscape needs and wants:&nbsp;
-              <a href={"mailto:" + "rheda@me.com"}>Rheda@me.com</a>
+              <a href="mailto:rheda@me.com">Rheda@me.com</a>
               <br />
               Rheda of Curb Appeal by Rheda will work with you to create a
               landscape that is within your budget and schedule. The initial

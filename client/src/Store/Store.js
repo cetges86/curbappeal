@@ -1,22 +1,43 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import garden from "../img/curbappeal1.jpeg"
+import Footer from '../Footer/Footer';
+import veggies from "../img/veggies-bg.jpeg";
+import seed from "../img/seed-packet.jpg";
+
 
 const Store = () => {
     return (
         <div>
             <Navbar />
-            
-            <section id="intro">
-                <div className="row align-items-center">
-                    <h1 className="text-center"> Welcome to the 20/20 Garden Store</h1>
-                    <img className="img-thumbnail col-md-auto" id="garden-img" alt="Curb Appeal Garden" src={garden} />
-                    <p className="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit quam, maximus non nunc id, vulputate condimentum tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer scelerisque sollicitudin pulvinar. Quisque velit elit, commodo vel lorem quis, bibendum tempor eros. Maecenas faucibus ac dolor sit amet iaculis. Phasellus eget libero lacus. Praesent eget lacus ac lorem dignissim pretium. Morbi venenatis felis sed tempor ultrices.
-    
-Fusce mi quam, luctus eget orci quis, pharetra finibus sem. Nullam sed arcu eu mi finibus posuere nec aliquet orci. Duis convallis volutpat mauris. Duis eu tempus turpis, non convallis dui. Aliquam eget gravida metus. Praesent eget nisi justo. Donec risus nisl, tristique non blandit ullamcorper, vehicula a tortor. Cras mattis cursus imperdiet. Fusce purus elit, luctus quis urna nec, malesuada pulvinar dolor. In in gravida dolor. Nullam ac pharetra lorem. Nam sapien sem, dapibus sed urna id, dictum mattis felis. Aenean sed erat enim. Praesent porttitor enim vel vulputate pharetra. Quisque scelerisque scelerisque ipsum ac tempus. Aliquam gravida mauris ut sagittis accumsan.</p>
 
+            <section id="intro">
+                <div className="row justify-content-lg-center align-items-center">
+                    <h1 id="small-banner"> Welcome to the 20/20 Garden Store</h1>
+                </div>
+                <div className="row p-3">
+                    <div className="col">
+                        <img className="ml-3" alt="Curb Appeal Garden" src={veggies} />
+                        {/* <p className="text-center">Get your 20/20 Seed Packet today<p> */}
+                    </div>
+                    <p className="col">
+                        The 20/20 Garden store offers a set of 3 different seed packet collections, which will help get you started growing foods rich in nutrition to prevent age-related eye diseases.
+                        The seed packets include the following:
+                        <ul>
+                            {/* <li><img src={seed}/></li> */}
+                            <li>Spinach</li>
+                            <li>Sweet Red Peppers</li>
+                            <li>Marigolds</li>
+                            <li>And More!</li>
+                        </ul>
+                        All of these are excellent sources of lutein and zeaxanthin, both are proven to help improve macular health and improve visual contrast and sharpness. All of these are also easy to grow, so you'll have you're own 20/20 Garden in no time. Included with seed packets are information about serving sizes, nutritional content and growing instructions.<br/>
+                        To buy a seed packet or several seed packets, please email me at Rheda@me.com or send money via Venmo to 
+                    </p>
+                </div>
+                <div className="row">
+                <button>Buy Seeds Now</button>
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }

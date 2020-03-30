@@ -60,8 +60,8 @@ const MainPage = () => {
               degeneration prevention, I fell that it’s time to prescribe
               healthy foods. <br />
               The 20/20 Garden™ set of 3 seed packets is an affordable way to
-              create a garden of foods rich in nutrition to prevent age -
-              related eye disease.The varieties of seeds included are spinach,
+              create a garden of foods rich in nutrition to prevent age-related eye disease. 
+              The varieties of seeds included are spinach,
               sweet red peppers and marigolds– all are easy to grow and
               excellent sources of lutein and zeaxanthin.The unique and colorful
               seed packets clearly indicate the seed type including variety, as

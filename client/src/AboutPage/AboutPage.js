@@ -7,9 +7,9 @@ const AboutPage = () => {
   return (
     <div>
       <Navbar />
-      <div id="banner" >
-        <h1 className="display-2">About Dr. Gerlock</h1>
-        </div>
+      <div id="banner">
+        <h1 className="align-self-center display-4">About Dr. Gerlock</h1>
+      </div>
       <section id="about">
         <div className="row align-items-center">
           <img
