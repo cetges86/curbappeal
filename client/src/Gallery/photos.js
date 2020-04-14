@@ -186,12 +186,7 @@ export const photos = [
     width: 4,
     height: 3
   },
-  {
-    "id": 30,
-    "src": "../img/CurbAppeal-30.jpg",
-    width: 4,
-    height: 3
-  },
+  // 
   {
     "id": 31,
     "src": "../img/CurbAppeal-31.jpg",
@@ -228,6 +223,12 @@ export const photos = [
     width: 4,
     height: 3
   },
+  {
+      "id": 30,
+      "src": "../img/CurbAppeal-30.jpg",
+      width: 4,
+      height: 3
+    },
   {
     "id": 37,
     "src": "../img/CurbAppeal-37.jpg",

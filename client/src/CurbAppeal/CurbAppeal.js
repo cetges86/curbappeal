@@ -7,8 +7,8 @@ const CurbAppeal = () => {
   return (
     <div>
       <Navbar />
-      <div id="banner">
-        <h1 className="align-self-center display-4">Curb Appeal by Rheda</h1>
+      <div className="banner">
+        <h1 className="lg-banner-txt align-self-center display-4">Curb Appeal by Rheda</h1>
       </div>
       <section id="intro">
         <div className="row align-items-center">
