@@ -3,9 +3,31 @@ import logo from "../img/logo-transparent.png";
 
 class Navbar extends Component {
 
+    componentDidMount() {
+        // console.log("loaded")
+        // console.log(window.scroll);
+        // window.scroll(function () {
+        //     if (window.scrollTop() > 300) {
+        //         console.log('worked')
+        //         document.getElementsByClassName('navbar').addClass("opaque");
+        //     }
+        // }
+        // )
+
+        var myNav = document.getElementById('mynav');
+        window.onscroll = function () {
+            "use strict";
+            if (document.body.scrollTop || document.documentElement.scrollTop >= 400) {
+                myNav.classList.add("nav-opaque");
+            }
+            else {
+                myNav.classList.remove("nav-opaque");
+            }
+        };
+    }
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light">
+            <nav id="mynav" className="navbar sticky-top navbar-expand-lg navbar-light">
                 <a className="navbar-brand" href="/">
                     <img src={logo} width="400" alt="20/20 Garden Logo" />
                 </a>

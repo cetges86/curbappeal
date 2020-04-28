@@ -18,7 +18,7 @@ class Store extends Component {
     handleClick = () => {
         this.setState({ quantity: this.state.quantity += 1 });
 
-        if (this.state.quantity > 0 && this.state.name != '') {
+        if (this.state.quantity > 0 && this.state.name !== '') {
             this.switchButton(this.state.quantity, this.state.name);
         }
 
@@ -28,7 +28,7 @@ class Store extends Component {
         console.log(event.target.value)
         const typedName = event.target.value;
         this.setState({ name: typedName });
-        if (this.state.quantity > 0 && this.state.name != '') {
+        if (this.state.quantity > 0 && this.state.name !== '') {
             this.switchButton(this.state.quantity, typedName);
         }
     }
@@ -46,7 +46,7 @@ class Store extends Component {
 
     switchButton = (quantity, name) => {
         const button = document.getElementById('confirm');
-        if (quantity > 0 && name != '') {
+        if (quantity > 0 && name !== '') {
             button.disabled = false;
             this.setState({ email: `mailto:Rheda@me.com?subject=${name} would like to buy Seed Packets from 20/20 Garden!&body=Please let me know my total for my ${quantity} seed packet(s). Thank you.` })
         }

@@ -1,19 +1,22 @@
 body {
     margin: 0;
     font-family: "Raleway" !important;
+    position:relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-body {
     background-image: url("./img/flower-bg.jpg");
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 nav {
-    background-color: rgba(248, 249, 250, .2) !important;
+    background-color: rgba(248, 249, 250, .2);
+}
+
+.nav-opaque {
+    background-color: rgba(248, 249, 250, .9) ;
+    transition: 1.0s;
 }
 
 .jumbotron {
@@ -24,6 +27,7 @@ nav {
 .row {
   align-items: center;
   justify-content: center;
+  margin:0 !important;
 }
 
 /* On main page, section 1 garden image */
@@ -40,7 +44,6 @@ nav {
 #intro {
     padding: 5%;
     align-items: center;
-    background-color: #9cdaf8;
     background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
 }
 
@@ -67,7 +70,7 @@ p {
 
 .banner {
     display:flex;
-    height:30rem;
+    height:25rem;
     color:#98fcbd;
     letter-spacing: 3px;
     margin:auto;
@@ -117,4 +120,25 @@ p {
 
 .btn-lg{
     margin-right:25px;
+}
+
+/* Tablet Size */
+
+@media screen and (min-width:480px) and (max-width:768px){
+
+    .lg-banner-txt  {
+text-align:center;
+margin:auto;    }
+    
+  
+}
+
+/* Extra Large Screen */
+
+@media screen and (min-width:1200px){
+    body{
+
+        background-size:cover;
+    }
+
 }

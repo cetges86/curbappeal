@@ -14,18 +14,22 @@ const MainPage = () => {
       <Jumbotron />
       <div className="bg-light" id="intro">
         <div className="row align-items-center">
-          <div className="col">
-          <img
-            className="img-thumbnail"
-            id="garden-img"
-            alt="Curb Appeal Garden"
-            src={garden}
-          />
-          <img src={logo} id="logo" />
+          <div className="col-md-12 col-lg-6">
+            <p>Hello, and thank you for visiting 20/20 Garden and Curb Appeal! Two services living in harmony side by side, both provided by me: Dr. Rheda Gerlock, OD. <br/>
+             This site is your home for information about 20/20 Garden and Curb Appeal. Hopefully you'll get to know me and and what my services and products can do to improve your lives. Keep reading if you'd like to learn more about 20/20 Garden!
+              <br/></p>
+            <img
+              className="img-thumbnail"
+              id="garden-img"
+              alt="Curb Appeal Garden"
+              src={garden}
+            />
+            <img src={logo} id="logo" />
 
           </div>
-          <div className="col">
-            <p className="p-3 m-3 frosted">
+          <div className="col p-1 m-1 frosted">
+            <h6>More about 20/20 Garden:</h6>
+            <p>
               Studies have shown that participating in gardening as a child is
               an important contributor to attitudes and actions toward the
               environment as an adult.Just as importantly, access to nutritious
@@ -60,7 +64,7 @@ const MainPage = () => {
               degeneration prevention, I fell that it’s time to prescribe
               healthy foods. <br />
               The 20/20 Garden™ set of 3 seed packets is an affordable way to
-              create a garden of foods rich in nutrition to prevent age-related eye disease. 
+              create a garden of foods rich in nutrition to prevent age-related eye disease.
               The varieties of seeds included are spinach,
               sweet red peppers and marigolds– all are easy to grow and
               excellent sources of lutein and zeaxanthin.The unique and colorful
@@ -93,8 +97,8 @@ const MainPage = () => {
             src={trunk}
           />
           <div className="col">
-            <h3 className="text-center"> Curb Appeal by Rheda </h3>
-            <p className="frosted col p-2 m-3">
+            <h3 className="text-center m-3"> Curb Appeal by Rheda </h3>
+            <p className="frosted col p-2">
               I celebrate 35 years of optometry care this year and a couple
               years ago I started a gardening business to test - drive what my
               retirements plans might include. I’m a hobby gardener with no
