@@ -10,13 +10,21 @@ body {
     background-repeat: no-repeat;
 }
 
+.container {
+    border-radius: 15px;
+}
+
 nav {
-    background-color: rgba(248, 249, 250, .2);
+    background-color: rgba(248, 249, 250, 0);
 }
 
 .nav-opaque {
-    background-color: rgba(248, 249, 250, .9) ;
+    background-color: rgba(248, 249, 250, .8) ;
     transition: 1.0s;
+}
+
+.hidden {
+    display:none
 }
 
 .jumbotron {
@@ -33,7 +41,6 @@ nav {
 /* On main page, section 1 garden image */
 
 #garden-img {
-    margin: 2%;
     max-height: 477px;
 }
 
@@ -55,7 +62,7 @@ nav {
 
 p {
     text-indent: 50px;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 .frosted {
@@ -64,8 +71,14 @@ p {
     border-radius: 15px;
 }
 
-#logo {
-    width:100%;
+#jumbo-logo {
+    width:60%;
+    margin-left:5%;
+}
+
+#jumbo-banner{
+    margin-top:5%;
+    margin-left:10%;
 }
 
 .banner {
@@ -88,8 +101,8 @@ p {
     color:#98fcbd;
     -webkit-text-stroke: 1px teal;
     text-shadow: 2px 2px #000;
+    
 }
-
 
 .footer {
     background-color: rgba(248, 249, 250, .8);

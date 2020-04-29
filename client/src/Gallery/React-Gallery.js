@@ -32,7 +32,6 @@ class ImgGallery extends Component {
         <div>
         <Navbar />
         <div className="container">
-        
         <h1 id="small-banner">Image Gallery</h1>
           <Gallery photos={photos} onClick={this.openLightbox} />
           <ModalGateway>

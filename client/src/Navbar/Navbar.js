@@ -4,24 +4,16 @@ import logo from "../img/logo-transparent.png";
 class Navbar extends Component {
 
     componentDidMount() {
-        // console.log("loaded")
-        // console.log(window.scroll);
-        // window.scroll(function () {
-        //     if (window.scrollTop() > 300) {
-        //         console.log('worked')
-        //         document.getElementsByClassName('navbar').addClass("opaque");
-        //     }
-        // }
-        // )
-
-        var myNav = document.getElementById('mynav');
+        let myNav = document.getElementById('mynav');
+        let myLogo = document.getElementById('mylogo');
         window.onscroll = function () {
-            "use strict";
             if (document.body.scrollTop || document.documentElement.scrollTop >= 400) {
                 myNav.classList.add("nav-opaque");
+                myLogo.classList.remove("hidden");
             }
             else {
                 myNav.classList.remove("nav-opaque");
+                myLogo.classList.add("hidden");
             }
         };
     }
@@ -29,7 +21,7 @@ class Navbar extends Component {
         return (
             <nav id="mynav" className="navbar sticky-top navbar-expand-lg navbar-light">
                 <a className="navbar-brand" href="/">
-                    <img src={logo} width="400" alt="20/20 Garden Logo" />
+                    <img className="hidden" id="mylogo" src={logo} width="400" alt="20/20 Garden Logo" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
