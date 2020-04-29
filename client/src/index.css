@@ -14,6 +14,10 @@ body {
     border-radius: 15px;
 }
 
+img {
+    max-width: 100%;
+}
+
 nav {
     background-color: rgba(248, 249, 250, 0);
 }
@@ -42,6 +46,7 @@ nav {
 
 #garden-img {
     max-height: 477px;
+    margin-top: 5%;
 }
 
 #garden-img-vert {
@@ -51,7 +56,7 @@ nav {
 #intro {
     padding: 5%;
     align-items: center;
-    background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
+    background-image: linear-gradient(315deg, #98fcbd 0%, #9cdaf8 74%);
 }
 
 #about {
@@ -67,7 +72,7 @@ p {
 
 .frosted {
     background-color: rgba(248, 249, 250, .6);
-    padding:1rem;
+    padding:.6rem;
     border-radius: 15px;
 }
 
@@ -83,7 +88,7 @@ p {
 
 .banner {
     display:flex;
-    height:25rem;
+    height:22rem;
     color:#98fcbd;
     letter-spacing: 3px;
     margin:auto;
@@ -94,7 +99,7 @@ p {
     -webkit-text-stroke: 1px teal;
     text-shadow: 2px 2px #000;
     margin-left: 15%;
-    margin-top:-18%;
+    margin-top:-12%;
 }
 
 #small-banner {
@@ -143,7 +148,9 @@ p {
 text-align:center;
 margin:auto;    }
     
-  
+img {
+    max-width: 100%;
+}
 }
 
 /* Extra Large Screen */
@@ -154,4 +161,16 @@ margin:auto;    }
         background-size:cover;
     }
 
+    #jumbo-logo {
+        width:40%;
+    }
+
+}
+
+
+/* Mobile Phone View */
+@media screen and (max-width:768px){
+    img {
+        max-width: 100%;
+    }
 }

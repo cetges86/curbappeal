@@ -65,11 +65,11 @@ class Store extends Component {
                 </div>
                 <section id="intro">
                     <div className="row p-3">
-                        <div className="col">
-                            <img className="ml-3" alt="Curb Appeal Garden" src={veggies} />
+                        <div className="col-sm-12 col-lg-6 text-center">
+                            <img alt="Curb Appeal Garden" src={veggies} />
                             <p id="label" className="text-center">Get your 20/20 Seed Packets today!</p>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-6">
                             The 20/20 Garden store offers a set of 3 different seed packet collections, which will help get you started growing foods rich in nutrition to prevent age-related eye diseases.
                             The seed packets include the following:
                             <br /><br />
@@ -88,7 +88,7 @@ class Store extends Component {
                         </div>
                     </div>
                     <div className="row text-center">
-                        <div className='col'>
+                        <div className='col-lg-6'>
                             <div class="input-group input-group-sm mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="inputGroup-sizing-sm">Name</span>

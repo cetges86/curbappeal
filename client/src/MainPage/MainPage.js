@@ -12,8 +12,8 @@ const MainPage = () => {
     <div>
       <Navbar />
       <Jumbotron />
-      <div className="bg-light" id="intro">
-        <div className="container align-items-center p-2">
+      <div className="container" id="intro">
+        <div className="align-items-center p-2">
           <div className="col-lg-12">
             <p>Hello, and thank you for visiting both 20/20 Garden and Curb Appeal! Two services living in harmony side by side, both provided by me: Dr. Rheda Gerlock, OD. This site is your home for information about 20/20 Garden and Curb Appeal. Hopefully you'll get to know me and and what my services and products can do to improve your lives. Keep reading if you'd like to learn more about 20/20 Garden!
               <br /></p>
@@ -29,35 +29,8 @@ const MainPage = () => {
             />
           </div>
 
-          <div className="col p-1 m-1 frosted">
-            <h6 className="p-3 text-center font-weight-bold">More about 20/20 Garden:</h6>
-            <p className="p-3">
-              Studies have shown that participating in gardening as a child is
-              an important contributor to attitudes and actions toward the
-              environment as an adult. Just as importantly, access to nutritious
-              affordable food is a key issue of our time. Our society
-              increasingly relies on junk foods that are highly processed,
-              contain too much salt and fat, and commonly sold as affordable
-              fast food. But access to read food can start with gardening.
-              <br />
-              The 3000 sq. ft. <a target="_blank" href="https://www.childrenscolorado.org/about/news/2018/september-2018/new-community-garden/">Healthy Roots Community Garden</a> on the
-              Anschutz Medical Campus of the Children’ s Hospital Colorado and
-              the harvest it produces is used for a number of purposes
-              including:
-            </p>
-            <ul>
-              <li>
-                Allowing for hands-on nutrition education and healthy eating/obesity prevention programs
-              </li>
-              <li>
-                Enabling the hospital to launch a food prescription program and
-                food pharmacy, allowing health care providers to “prescribe”
-                healthy food instead of– or in addition to– medicine to patients/families struggling with obesity, diabetes and food security
-              </li>
-            </ul>
-          </div>
+          
         </div>
-
         <hr/>
         <div className="row my-3">
           <div className="col text-center">

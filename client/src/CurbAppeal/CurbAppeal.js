@@ -10,7 +10,7 @@ const CurbAppeal = () => {
       <div className="banner">
         <h1 className="lg-banner-txt align-self-center display-4">Curb Appeal by Rheda</h1>
       </div>
-      <section id="intro">
+      <section className="container" id="intro">
         <div className="row align-items-center">
           <img className="img-thumbnail col-md-auto" id="garden-img" alt="Curb Appeal Garden" src={curb1} />
           <div className="col">
@@ -36,7 +36,6 @@ const CurbAppeal = () => {
           </div>
         </div>
         <div>
-
           <p className="frosted">
             Landscape Maintenance Programs include the following services with a
             lot of attention to detail and can be customized to fit your needs:
@@ -52,6 +51,10 @@ const CurbAppeal = () => {
             Once Curb Appeal by Rheda is hired for your landscape needs,
             schedules and billing will be determined.
           </p>
+        </div>
+        <div className="d-flex flex-row-reverse">
+        <a href="/gallery"><button className="btn btn-info">Visit the Image Gallery to see the results</button></a>
+
         </div>
       </section>
       <Footer />
