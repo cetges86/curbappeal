@@ -1,14 +1,22 @@
 body {
     margin: 0;
-    font-family: "Raleway" !important;
+    font-family: 'Muli', sans-serif !important;
+    font-size:1.1rem !important;
     position:relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url("./img/flower-bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    
 }
+
+body:before {
+    background:url(img/veggies-bg.jpeg) center center fixed;
+    display: block; 
+    content:""; 
+    position: absolute; 
+    z-index:-1;
+    top:0; left: 0; right: 0; height: 100%;
+    opacity:.15;
+  }
 
 .container {
     border-radius: 15px;
@@ -27,12 +35,18 @@ nav {
     transition: 1.0s;
 }
 
+.nav-link {
+    font-weight:600;
+    font-size: large;
+    color:rgba(36, 103, 37, .7) !important;
+}
+
 .hidden {
     display:none
 }
 
 .jumbotron {
-    height: 30rem;
+    height: 20rem;
     background-color: rgba(248, 249, 250, 0) !important;
 }
 
@@ -51,17 +65,21 @@ nav {
 
 #garden-img-vert {
     height:100%;
+    border-radius: 5%;
+    border: 10px solid white;
+    padding: 0;
 }
 
 #intro {
     padding: 5%;
     align-items: center;
-    background-image: linear-gradient(315deg, #98fcbd 0%, #9cdaf8 74%);
+    background-color:#6edf6f;
+    /* background-image: linear-gradient(315deg, #98fcbd 0%, #9cdaf8 74%); */
 }
 
 #about {
-    background-color: #9cdaf8;
-    background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%);
+    background-color: #6edf6f;
+    /* background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%); */
     padding:5%;
 }
 
@@ -77,14 +95,9 @@ p {
 }
 
 #jumbo-logo {
-    width:60%;
     margin-left:5%;
 }
 
-#jumbo-banner{
-    margin-top:5%;
-    margin-left:10%;
-}
 
 .banner {
     display:flex;

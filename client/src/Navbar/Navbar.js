@@ -7,7 +7,7 @@ class Navbar extends Component {
         let myNav = document.getElementById('mynav');
         let myLogo = document.getElementById('mylogo');
         window.onscroll = function () {
-            if (document.body.scrollTop || document.documentElement.scrollTop >= 400) {
+            if (document.body.scrollTop || document.documentElement.scrollTop >= 500) {
                 myNav.classList.add("nav-opaque");
                 myLogo.classList.remove("hidden");
             }
@@ -38,7 +38,7 @@ class Navbar extends Component {
                             <a className="nav-link" href="/store">Store</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/curbappeal">Curb Appeal</a>
+                            <a className="nav-link" href="/curbappeal">Rheda Gardens</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/gallery">Image Gallery</a>
