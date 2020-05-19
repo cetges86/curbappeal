@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer"
-import portrait from "../img/portrait.jpeg";
+import butterfly from "../img/butterfly.jpg";
 import curb2 from "../img/curb2.jpeg";
 const AboutPage = () => {
   return (
@@ -13,9 +13,10 @@ const AboutPage = () => {
       <section className="container" id="about">
         <div className="row align-items-center">
           <img
-            className="img-thumbnail col-md-4"
-            alt="Rheda Portrait"
-            src={portrait}
+          id="butterfly"
+            className="col-md-5"
+            alt="Butterfly"
+            src={butterfly}
           />
           <div className="col">
             <h3 className="text-center">About 20/20 Garden</h3><br />

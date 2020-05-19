@@ -83,6 +83,13 @@ nav {
     padding:5%;
 }
 
+#butterfly {
+    border: 10px solid white;
+    padding:0;
+    border-radius: 5%;
+    margin:2%;
+}
+
 p {
     text-indent: 50px;
     line-height: 1.5;
