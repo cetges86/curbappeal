@@ -35,10 +35,13 @@ class Navbar extends Component {
                             <a className="nav-link" href="/about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/store">Store</a>
+                            <a className="nav-link" href="/garden">20/20 Garden&trade;</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/curbappeal">Rheda Gardens</a>
+                            <a className="nav-link" href="/curbappeal">Curb Appeal</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="/store">Store</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/gallery">Image Gallery</a>

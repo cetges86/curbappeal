@@ -7,6 +7,7 @@ import CurbAppeal from "./CurbAppeal/CurbAppeal";
 import ReactGallery from "./Gallery/React-Gallery";
 import Store from "./Store/Store";
 import Contact from "./Contact/Contact";
+import Gardens from './Gardens/Gardens';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/garden" component={Gardens} />
           <Route exact path="/curbappeal" component={CurbAppeal} />
           <Route exact path="/gallery" component={ReactGallery} />
           <Route exact path="/store" component={Store} />

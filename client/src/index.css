@@ -1,3 +1,12 @@
+/* colors
+CC5803 dark orange
+E2711D med orange
+E1CD3A yellow green
+
+
+*/
+
+
 body {
     margin: 0;
     font-family: 'Muli', sans-serif !important;
@@ -5,18 +14,11 @@ body {
     position:relative;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
+    background-image:url('img/butterfly.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-body:before {
-    background:url(img/veggies-bg.jpeg) center center fixed;
-    display: block; 
-    content:""; 
-    position: absolute; 
-    z-index:-1;
-    top:0; left: 0; right: 0; height: 100%;
-    opacity:.15;
-  }
 
 .container {
     border-radius: 15px;
@@ -37,8 +39,13 @@ nav {
 
 .nav-link {
     font-weight:600;
-    font-size: large;
+    font-size: .9rem;
     color:rgba(36, 103, 37, .7) !important;
+}
+
+.btn {
+    background-color:#FF9505 !important;
+    border-color:#FF9505 !important;
 }
 
 .hidden {
@@ -46,7 +53,7 @@ nav {
 }
 
 .jumbotron {
-    height: 20rem;
+    height: 33rem;
     background-color: rgba(248, 249, 250, 0) !important;
 }
 
@@ -73,12 +80,13 @@ nav {
 #intro {
     padding: 5%;
     align-items: center;
-    background-color:#6edf6f;
+    background:rgba(248, 249, 250, .95);
+    border-radius: 15px;
     /* background-image: linear-gradient(315deg, #98fcbd 0%, #9cdaf8 74%); */
 }
 
 #about {
-    background-color: #6edf6f;
+    background:rgba(248, 249, 250, .95);
     /* background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%); */
     padding:5%;
 }
@@ -103,28 +111,31 @@ p {
 
 #jumbo-logo {
     margin-left:5%;
+    background:rgba(248, 249, 250, .7);
+    border-radius:15px;
 }
 
 
 .banner {
     display:flex;
     height:22rem;
-    color:#98fcbd;
+    color:#FF9505;
     letter-spacing: 3px;
     margin:auto;
     /* justify-content: flex-start; */
 }
 
 .lg-banner-txt  {
-    -webkit-text-stroke: 1px teal;
+    /* -webkit-text-stroke: 1px teal; */
+    font-family: 'Parisienne', cursive;
     text-shadow: 2px 2px #000;
     margin-left: 15%;
     margin-top:-12%;
 }
 
 #small-banner {
-    color:#98fcbd;
-    -webkit-text-stroke: 1px teal;
+    color:#FF9505;
+    -webkit-text-stroke: 1px FF9505;
     text-shadow: 2px 2px #000;
     
 }

@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer"
 import butterfly from "../img/butterfly.jpg";
-import curb2 from "../img/curb2.jpeg";
 const AboutPage = () => {
   return (
     <div>
@@ -11,6 +10,25 @@ const AboutPage = () => {
         <h1 className="align-self-center display-4 lg-banner-txt">About Rheda Gardens</h1>
       </div>
       <section className="container" id="about">
+        
+        <div className="row my-3">
+          <div className="col text-center">
+            <p className="p-3 text-left m-3 frosted">
+              As an optometrist with a particular concern about age-related ocular disease prevention, I prescribe diets rich in lutein, zeaxanthin & vitamin C. The 20/20 Garden™ set of 3 seed packets is an affordable way to grow a garden of foods rich in nutrition to prevent age-related eye disease. The varieties of seeds included are spinach, sweet red peppers and marigolds– all are easy to grow and are excellent sources of ocular nutrition. The unique and colorful seed packets clearly indicate the seed type including specific variety and planting instructions. In addition, 20/20 Garden™ seed packets include information about serving size and nutritional content. The 20/20 Garden™ - <i>Plant nutrition for your Vision</i> combines my efforts to support nutrition to prevent age-related ocular disease with a product to easily grow your own ocular and vision superfoods!
+            </p>
+            <a href="/store">
+              <button className="btn btn-primary">
+                Check out the store for seed packets!
+              </button>
+            </a>
+          </div>
+          {/* <img
+            className="img-thumbnail col-md-auto"
+            id="garden-img"
+            alt="Curb Appeal Garden"
+            src={veggies}
+          /> */}
+        </div>
         <div className="row align-items-center">
           <img
           id="butterfly"
@@ -19,7 +37,7 @@ const AboutPage = () => {
             src={butterfly}
           />
           <div className="col">
-            <h3 className="text-center">About 20/20 Garden</h3><br />
+            {/* <h3 className="text-center">About 20/20 Garden</h3><br /> */}
             <p>
               During my practice, I have researched how food can contribute to
               macular (visual) health. For example, lutein and zeaxanthin are
@@ -35,68 +53,7 @@ const AboutPage = () => {
               </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col frosted">
-            <p className="p-3">
-              Studies have shown that participating in gardening as a child is
-              an important contributor to attitudes and actions toward the
-              environment as an adult. Just as importantly, access to nutritious
-              affordable food is a key issue of our time. Our society
-              increasingly relies on junk foods that are highly processed,
-              contain too much salt and fat, and commonly sold as affordable
-              fast food. But access to read food can start with gardening.
-              <br />
-              The 3000 sq. ft. <a target="_blank" href="https://www.childrenscolorado.org/about/news/2018/september-2018/new-community-garden/">Healthy Roots Community Garden</a> on the
-              Anschutz Medical Campus of the Children’ s Hospital Colorado and
-              the harvest it produces is used for a number of purposes
-              including:
-            </p>
-            <ul>
-              <li>
-                Allowing for hands-on nutrition education and healthy eating/obesity prevention programs
-              </li>
-              <li>
-                Enabling the hospital to launch a food prescription program and
-                food pharmacy, allowing health care providers to “prescribe”
-                healthy food instead of– or in addition to– medicine to patients/families struggling with obesity, diabetes and food security
-              </li>
-            </ul>
-          </div>
-
-
-        </div>
-        <div className="col">
-          <p>
-            Colorful vegetables and edible flowers often also contain Vitamin C, an
-            antioxidant, which lowers the risk of developing cataracts and
-            when taken in combination with other essential nutrients, can slow
-            the progression of age-related macular degeneration and the
-            resultant visual acuity loss. Vitamin C also supports healthy
-            ocular blood vessels.
-            </p>
-        </div>
-        <div className="row m-3">
-          <div className="col">
-            <h4>Curb Appeal by Rheda</h4>
-            <p >
-              I happened into starting a gardening business in 2018 by offering to
-              help an acquaintance with her corner lot flower bed spring clean-up
-              while she was recuperating from back surgery. Once I started the
-              project, we both realized there were many opportunities to add color
-              and texture as well as minimize the upkeep of her landscape. While
-              driving home one night, I drove by Colorado and Amherst to see the
-              latest addition to the Vision Care Specialists office locations and
-              was horrified by the weed overgrowth in the 2 raised bed planters. I
-              was in contact with our CEO soon and informed him that I would clean
-              up, plant and maintain those planters. Both of these gardens differ
-              greatly from the small shade gardens I have at my residence. But
-              I’ve come to love the color and vibrancy that perennials and annuals
-              provide when planted in sunny locations.
-          </p>
-
-          </div>
-          <img className="col-md-4 img-thumbnail" src={curb2} />
-        </div>
+        
       </section>
       <Footer />
     </div>
