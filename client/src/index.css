@@ -1,7 +1,8 @@
 /* colors
-CC5803 dark orange
-E2711D med orange
-E1CD3A yellow green
+FE5224 dark orange
+FF9505 med orange
+92AC4B green
+9DB35E light green
 
 
 */
@@ -19,7 +20,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+a {
+    color:white !important;
+}
 .container {
     border-radius: 15px;
 }
@@ -63,6 +66,10 @@ nav {
   margin:0 !important;
 }
 
+section {
+    margin-bottom:3%;
+}
+
 /* On main page, section 1 garden image */
 
 #garden-img {
@@ -80,13 +87,13 @@ nav {
 #intro {
     padding: 5%;
     align-items: center;
-    background:rgba(248, 249, 250, .95);
+    background:rgba(254,82,36,.98);
     border-radius: 15px;
     /* background-image: linear-gradient(315deg, #98fcbd 0%, #9cdaf8 74%); */
 }
 
 #about {
-    background:rgba(248, 249, 250, .95);
+    background:rgba(254,82,36, .98);
     /* background-image: linear-gradient(315deg, #9cdaf8 0%, #98fcbd 74%); */
     padding:5%;
 }
@@ -103,11 +110,11 @@ p {
     line-height: 1.5;
 }
 
-.frosted {
+/* .frosted {
     background-color: rgba(248, 249, 250, .6);
     padding:.6rem;
     border-radius: 15px;
-}
+} */
 
 #jumbo-logo {
     margin-left:5%;
@@ -141,7 +148,7 @@ p {
 }
 
 .footer {
-    background-color: rgba(248, 249, 250, .8);
+    background-color: rgba(254,82,36, .98);
     padding:1rem;
 }
 

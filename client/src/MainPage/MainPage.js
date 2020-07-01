@@ -11,7 +11,7 @@ const MainPage = () => {
     <div className="bodyImage">
       <Navbar />
       <Jumbotron />
-      <div className="container" id="intro">
+      <section className="container" id="intro">
         <div className="align-items-center p-2">
           <div className="col-lg-12">
             <h5 className="text-center">Hello and thank you for visiting Rheda Gardens! <br />
@@ -32,12 +32,12 @@ provided by Curb Appeal by Rheda.
               <img className="col-lg-3" src={bellpepper} />
               <img className="col-lg-4" src={marigold} />
             </div>
-        <button className="btn btn-info">Learn More</button>
+        <a href="/about"><button className="btn btn-info">Learn More</button></a>
           </div>
 
         </div>
         
-      </div>
+      </section>
       <Footer />
     </div>
   );

@@ -54,11 +54,19 @@ class Gardens extends Component{
             ocular blood vessels.
             </p>
         </div>
+        <div className="row">
+
+        <a href="/store">
+              <button className="btn btn-primary">
+                Be sure to visit the store!
+              </button>
+            </a>
+        </div>
        
       </section>
 
-                <Footer />
-            </div>
+      <Footer />
+    </div>
         )
     }
 
